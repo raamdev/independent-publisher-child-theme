@@ -1,4 +1,4 @@
-independent-publisher-child-theme
-=================================
+independent-publisher-child
+===========================
 
-A Starter Child Theme for Independent Publisher
+Independent Publisher Child theme

@@ -1,0 +1,36 @@
+/*
+Theme Name: Independent Publisher Child
+Theme URI: http://independentpublisher.me/
+Author: Raam Dev
+Author URI: http://raamdev.com
+Description: A clean minimal theme for independent publishers. Ideal for single-author blogs.
+Template: independent-publisher
+Version: 1.2.4
+License: GNU GPLv3
+License URI: http://www.gnu.org/copyleft/gpl.html
+Tags: light, white, blue, two-columns, left-sidebar, flexible-width, custom-background, custom-colors, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+
+Based on _s http://underscores.me
+and Publish by Konstantin Kovshenin http://kovshenin.com/themes/publish
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/* =Imports styles from the parent theme
+-------------------------------------------------------------- */
+@import url('../independent-publisher/style.css');
+
+/* =Theme customization starts here. Add your own custom styles.
+-------------------------------------------------------------- */
+
+/* Uncomment this style definition to hide the green bar on Quote Formatted posts: */
+
+/*
+.format-quote blockquote {
+	border-left: none;
+	padding-left: 0;
+}
+*/
