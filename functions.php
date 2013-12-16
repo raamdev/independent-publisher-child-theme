@@ -10,4 +10,4 @@
 // function independent_publisher_get_post_word_count() { return false; }
 
 // Uncomment this line to enable multi-author mode:
-// function independent_publisher_is_multi_author_mode() { return false; }
+// function independent_publisher_is_multi_author_mode() { return true; }
