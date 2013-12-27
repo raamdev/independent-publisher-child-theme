@@ -10,3 +10,9 @@ This [Child Theme](http://codex.wordpress.org/Child_Themes) requires the parent 
 Once activated, you can start making changes to the child theme's `style.css` file and/or `functions.php`. The changes you make in those files will simply override the parent theme's styles and functions.
 
 See the comments in `style.css` and `functions.php` for examples.
+
+## Templates
+
+A [Page Template](http://codex.wordpress.org/Page_Templates#Custom_Page_Template) can be selected from the Page Attributes meta box when editing or creating a new WordPress Page. The following page templates are included in this Child Theme:
+
+ * **Archive Page:** Displays Search box, Recent Posts, Most Used Categories, Monthly Archives, and Tag Cloud. 
