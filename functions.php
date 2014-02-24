@@ -6,8 +6,9 @@
  *
  */
 
-// Uncomment this line to hide the post word count:
-// function independent_publisher_get_post_word_count() { return false; }
 
-// Uncomment this line to enable multi-author mode:
-// function independent_publisher_is_multi_author_mode() { return true; }
+// Add a favicon to your site. You need to add favicon image to the images folder of Independent Publisher Child Theme for this to work.
+function blog_favicon() {
+  echo '<link rel="Shortcut Icon" type="image/x-icon" href="'.get_bloginfo('stylesheet_directory').'/images/favicon.ico" />' . "\n";
+}
+add_action('wp_head', 'blog_favicon');
