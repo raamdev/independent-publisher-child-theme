@@ -34,3 +34,24 @@ and Blueprint http://www.blueprintcss.org/
 	padding-left: 0;
 }
 */
+
+/* Uncomment this style definition to use the original, Mac-specific font stack */
+
+/*
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.pinglist,
+#taglist,
+.comment-form-author label,
+.comment-form-email label,
+.comment-form-url label,
+.comment-form-comment label,
+.comment-form-subscriptions label,
+.comment-form-reply-title {
+	font-family: "Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
+*/
