@@ -1,7 +1,7 @@
 Independent Publisher Child Theme
 ===========================
 
-This child theme can be used to override styles and features of the [Independent Publisher](http://independentpublisher.me) theme.
+This child theme can be used to override styles and features of the [Independent Publisher](http://independentpublisher.me) theme. For a complete list of functions you can override in this child theme, please see [Functions you can override in a Child Theme](https://github.com/raamdev/independent-publisher#functions-you-can-override-in-a-child-theme).
 
 ## Installation
 
