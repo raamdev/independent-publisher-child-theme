@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * You can add your own functions here. You can also override functions that are
  * called from within the parent theme. For a complete list of function you can
  * override here, please see the docs:
@@ -21,7 +21,7 @@ function blog_favicon() {
 add_action('wp_head', 'blog_favicon');
 */
 
-/**
+/*
  * Add version number to main style.css file with version number that matches the
  * last modified time of the file. This helps when making frequent changes to the
  * CSS file as the browser will always load the newest version.
@@ -29,5 +29,16 @@ add_action('wp_head', 'blog_favicon');
 /*
 function independent_publisher_stylesheet() {
 	wp_enqueue_style( 'independent-publisher-style', get_stylesheet_uri(), '', filemtime( get_stylesheet_directory() . '/style.css') );
+}
+*/
+
+/*
+ * Modifies the default theme footer.
+ * This also applies the changes to JetPack's Infinite Scroll footer, if you're using that module.
+ */
+/*
+function independent_publisher_footer_credits() {
+	$my_custom_footer = 'This is my custom footer.';
+	return $my_custom_footer;
 }
 */
