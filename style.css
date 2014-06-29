@@ -55,3 +55,11 @@ h6,
 	font-family: "Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
 */
+
+/* Uncomment this style definition to use a long dash in ```<cite>```: */
+
+/*
+blockquote cite:before {
+content: "\2014 \0020";
+}
+*/
