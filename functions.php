@@ -1,4 +1,23 @@
 <?php
+/* 
+ * Modern method of installing a child theme:
+ * https://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme
+ *
+ */
+
+function my_theme_enqueue_styles() {
+
+    $parent_style = 'independent-publisher';
+
+    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
+    wp_enqueue_style( 'child-style',
+        get_stylesheet_directory_uri() . '/style.css',
+        array( $parent_style ),
+        wp_get_theme()->get('Version')
+    );
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
 
 /*
  * You can add your own functions here. You can also override functions that are
