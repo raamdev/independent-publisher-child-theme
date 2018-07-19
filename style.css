@@ -19,9 +19,10 @@ along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normali
 and Blueprint http://www.blueprintcss.org/
 */
 
-/* =Imports styles from the parent theme
+/* =Imports styles from the parent theme - no longer used as per https://codex.wordpress.org/Child_Themes#How_to_Create_a_Child_Theme
 -------------------------------------------------------------- */
-@import url('../independent-publisher/style.css');
+
+/* @import url('../independent-publisher/style.css');
 
 /* =Theme customization starts here. Add your own custom styles.
 -------------------------------------------------------------- */
